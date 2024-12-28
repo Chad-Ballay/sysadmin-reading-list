@@ -1,7 +1,7 @@
 # sysadmin-reading-list
 
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/sysadmin-reading-list.svg)](https://github.com/unixorn/sysadmin-reading-list/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/unixorn/sysadmin-reading-list.svg)
+![Contributors](https://img.shields.io/github/contributors/unixorn/sysadmin-reading-list.svg)
 ![Awesomebot link checking](https://github.com/unixorn/sysadmin-reading-list/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
@@ -246,10 +246,9 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 - [Az PowerShell Module](https://github.com/Azure/azure-powershell) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
 - [Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
-- [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
-- [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
-- [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
-- [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
+- [Azure Friday](https://learn.microsoft.com/en-us/shows/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
+- [Azure Quickstart Templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) community contributed Azure Resource Manager templates for tons of things.
+- [Official Azure Documentation](https://learn.microsoft.com/en-us/azure/?product=popular) official documentation for all Azure services.
 
 #### Google Cloud
 
@@ -281,7 +280,7 @@ There are several good options:
 - [CFEngine](https://cfengine.com) has been in continuous development since 1993.  Unlike some of its peers on this list, it is written in C and is built with speed and scalability in mind.  It should be considered for very, very large systems and for very small (think embedded) systems.
 - [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
 - [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
-- [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
+- [Salt](http://saltproject.io/) orchestrates the build and ongoing management of your infrastructure.
 
 ### Container Tooling
 
@@ -346,7 +345,7 @@ There are several good projects for monitoring.
 
 #### Articles/Tutorials
 
-[Infroduction To Baselines for Dashboards](https://jesswhite.co.uk/blog/practical-dashboards-part1/) - It's easy to make monitoring dashboards that are a jumble of poorly presented information. This series of articles gives guidelines on making good dashboards.
+Help wanted.
 
 ### JSON parsing with jq
 
